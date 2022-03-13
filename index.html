@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Number Guessing Game Design</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<section class="fullSection">
+			<h1>Number Guessing Games JavaScript</h1>
+
+			<p><span id="countTry">0</span>/<span id="CountSelect">5</span>
+				<span class="WarningText">
+					I am thinking of a number between 0-9. Can you guess it?
+				</span>
+			</p>
+
+			<div class="firstDiv">
+				<div class="NumberSelectDiv">
+					<div class="btn" value="0">0</div>
+					<div class="btn" value="1">1</div>
+					<div class="btn" value="2">2</div>
+					<div class="btn" value="3">3</div>
+					<div class="btn" value="4">4</div>
+					<div class="btn" value="5">5</div>
+					<div class="btn" value="6">6</div>
+					<div class="btn" value="7">7</div>
+					<div class="btn" value="8">8</div>
+					<div class="btn" value="9">9</div>
+				</div>
+				<h6 id="warnintTextHL" class="Warning"></h6>
+				<h6 class="Warning">Guessed Numbers : <span id="SelectNumberShow">0,0,0</span></h6>
+
+			</div>
+
+			<div class="lastDiv">
+				<h2 id="wineMessage"></h2>
+				<h3 class="h3Tag">Guess Number = <span id="guessNumberShow">00</span></h3>
+				<div id="playBackBtn" class="playNowBtn">Play Now</div>
+			</div>
+
+		</section>
+
+	<script src="js/script.js"></script>
+	</body>
+</html>
